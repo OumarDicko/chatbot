@@ -61,5 +61,3 @@ def gpt_functioncall(prompt,system,t):
         return function_reponse
     else:
         return r_message.content
-
-gpt_functioncall(prompt="Salut",system="Tu es un assistant",t=0)

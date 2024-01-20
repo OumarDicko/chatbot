@@ -6,7 +6,7 @@ from PIL import Image
 import io
 from promptList import *
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 genai.configure(api_key="AIzaSyButZzMI77rxMkcnVqf-bA_nYSemK0hD68")
 
 gemini_model = genai.GenerativeModel("gemini-pro")
